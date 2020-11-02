@@ -1,0 +1,19 @@
+#menentukan sifat bilangan
+print("\n", 5*"=", "menentukan sifat bilangan", 5*"=", "\n")
+
+a= float(input("masukkan bilangan: "))
+if a < 0 :
+	print(a, "=bilangan bulat negatif")
+elif a == 0 :
+	print(a, "=bilangan bulat 0")
+else :
+	print(a, "=bilangan bulat positif")
+
+#mengecek jenis huruf
+print("\n", 5*"=", "mengecek jenis huruf", 5*"=", "\n")
+huruf = input('masukkan huruf: ').lower()
+vokal = ('a','i','u','e','o')
+if huruf in vokal :
+	print(huruf, 'adalah huruf vokal')
+else :
+	print(huruf, 'bukan huruf vokal')
